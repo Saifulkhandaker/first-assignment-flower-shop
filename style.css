@@ -44,6 +44,7 @@ button{
     border-radius: 5px;
     background: #E55473;
     border-style: none;
+    cursor: pointer;
 }
 /* Deal-section */
 .deal-cotainer{
@@ -51,6 +52,7 @@ button{
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
+    margin-top: 50px;
     background: rgba(84, 229, 190, 0.05);
 }
 .deal-title{
@@ -121,5 +123,32 @@ input{
     margin-top: 10px;
     margin-right: 10px;
     border: none;
-    background-color: white;
+    background-color: #FFF;
+}
+/* footer-section */
+.footer-container{
+    height: 200px;
+    background: #111010;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.footer-title{
+    color: #FFF;  
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+    font-weight: 400;
 }
