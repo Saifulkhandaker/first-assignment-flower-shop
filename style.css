@@ -78,8 +78,8 @@ span{
     margin-top: 50px;
 }
 .insta-img{
-    width: 200px;
-    padding-right: 5px;
+    width: 260px;
+    padding-right: 7px;
     padding-top: 10px;
 }
 .instagram-title{
@@ -94,4 +94,32 @@ span{
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 10px;
+}
+/* subscribe-section */
+.subscribe-container{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+.subscribe-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 40px;
+    padding-bottom: 10px;  
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
 }
