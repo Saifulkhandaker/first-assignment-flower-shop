@@ -6,3 +6,42 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* Banner-section */
+.banner-content{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-img{
+    width: 400px;
+    height: 500px;
+    margin-right: 100px;
+}
+.banner-information{
+    width: 50%;
+    margin-left: 200px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;  
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+button{
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #E55473;
+    border-style: none;
+}
