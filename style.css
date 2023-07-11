@@ -8,7 +8,8 @@ body{
 }
 /* Banner-section */
 .banner-container{
-    height: 100vh;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,8 +17,9 @@ body{
 }
 .banner-img{
     width: 400px;
-    height: 500px;
     margin-right: 100px;
+    padding-top: 20px;
+
 }
 .banner-information{
     width: 50%;
